@@ -1,7 +1,9 @@
 LESSONS_PATH = 'public/assets/lessons'
 
 puts 'deleting courses'
+Course.delete_all
 puts 'deleting lessons'
+Course.delete_all
 
 def add_lessons(course, lessons)
   lessons.each_with_index do |lesson, i|
