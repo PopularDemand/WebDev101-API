@@ -6,7 +6,7 @@ puts 'deleting lessons'
 def add_lessons(course, lessons)
   lessons.each_with_index do |lesson, i|
     lesson[:order] = i
-    course.lessons.build(lesson)
+    course.lessons.create(lesson)
   end
   course.lessons
 end
