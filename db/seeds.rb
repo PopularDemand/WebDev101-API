@@ -1,7 +1,33 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+LESSONS_PATH = 'public/assets/lessons'
+
+puts 'deleting courses'
+puts 'deleting lessons'
+
+def add_lessons(course, lessons)
+  lessons.each_with_index do |lesson, i|
+    lesson[:order] = i
+    course.lessons.build(lesson)
+  end
+  course.lessons
+end
+
+
+###############
+##
+## WD101
+##
+###############
+wd101 = Course.create(title: 'Web Dev 101 -- Gittin Up and Running')
+
+wd101_lessons = [
+  {
+    title: "Welcome",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'welcome.md')
+  },
+  {
+    title: "second lesson",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'what-needed.md')
+  }
+]
+
+add_lessons(wd101, wd101_lessons)
