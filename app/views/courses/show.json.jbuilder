@@ -3,3 +3,4 @@ json.lessons @course.lessons do |lesson|
   json.extract! lesson, *lesson.attributes.keys
   json.html lesson.to_html
 end
+json.status 200
