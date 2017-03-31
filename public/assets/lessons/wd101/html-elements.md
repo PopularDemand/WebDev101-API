@@ -2,6 +2,25 @@
 
 There are a lot of HTML tags. Most of them you'll barely use. [This article](http://www.99lime.com/_bak/topics/you-only-need-10-tags/) goes as far as to say that there are only 10 tags that you really need. That's an interesting assertion, and a great place to start.
 
+1. **HTML** - It wraps all other elements.
+1. **Head** - For site meta data.
+    - The Head also contains a `<title>` element that holds the text that appears on the web browser's tab.
+3. **Body** - Contains the main content of the site.
+    - All of the following elements go in the `<body>` tag
+    - A basic html skeleton
+        ```
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <meta charset="utf-8">
+                <title>Webpage Title!</title>
+            </head>
+        
+            <body>
+                <h1>Hello World</h1>
+            </body>
+        </html>
+        ```
 1. **Headings** - for establishing a new topic
     - Headings come in 6 sizes: (in *decreasing* size) h1, h2, h3, h4, h5, h6
     - Without additional styling, a browser will render a heading with a large font size, at a bolder weight (heavier, darker), and on its own line.

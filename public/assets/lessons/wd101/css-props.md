@@ -15,6 +15,8 @@
 6. **background-color** - Set the background color of an element
 7. **background-image** - Set the background of an element to an image
   - Value must be in form: `url("image.png")` where image.png is the path to the image desired in the background
+9. **margin** - add space between an element and it's surroundings
+  - Values in px or any spacial unit
 
 
 CSS properties and values can go on forever. Don't worry about memorizing them all.
@@ -22,3 +24,5 @@ CSS properties and values can go on forever. Don't worry about memorizing them a
 Here's a [good place to start](http://www.openbookproject.net/tutorials/getdown/css/resources/lesson1/css_properties.html). 
 
 Here's a [semi-exhaustive list](https://www.w3schools.com/cssref/).
+
+<p class="closing">Let's head into an exercise.</p>

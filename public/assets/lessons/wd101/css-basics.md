@@ -11,6 +11,7 @@ How this works is that CSS associates *style rules* with various elements. Rules
   - To select all elements of a given type, the selector must be the element's tag name with no brackets, e.g., `a` or `p`
   - To select all elements of a custom class attribute, prepend the class name with a `.`, e.g., `.red-text` or `.text-center`
   - To select the *hopefully* one element of a given id, prepend the custom id with a `#`, e.g., `#page-title` or `#sidebar`
+  - You can even select elements *relative* to other elements. [Check it out](https://www.w3schools.com/cssref/css_selectors.asp)
 
 2. **Open Curly Brace**
 
@@ -24,5 +25,35 @@ How this works is that CSS associates *style rules* with various elements. Rules
 5. **Repeat** the *property: value;* syntax for as many rules as you'd like to apply to the selected elements.
 
 7. **Close Curly Brace**
+
+<hr>
+
+### Location
+
+CSS can go in an external file, but for now, let's write our CSS in the same file as our HTML.
+
+The rules go within `<style></style>` tags, and the style tags go within the `<head></head>` tag. It'll look something like:
+
+```
+...
+  <head>
+    <meta charset="utf-8">
+    <title>Awesome Site</title>
+
+    <style>
+      h1 {
+        color: red;
+      }
+
+      .article {
+        font-size: 14px;
+      }
+      
+      /* more rules here */
+    </style>
+
+  </head>
+...
+```
 
 <p class="closing">Let's check out some properties!</p>
