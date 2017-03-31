@@ -1,4 +1,4 @@
-### Exercise
+## Exercise
 
 **Recreate this webpage**
 ![old school web page](https://indesignsecrets.com/wp-content/uploads/2007/08/html2-finalpage.gif)

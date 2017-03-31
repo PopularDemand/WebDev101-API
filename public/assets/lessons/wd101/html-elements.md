@@ -1,4 +1,4 @@
-### The Important Elements
+## The Important Elements
 
 There are a lot of HTML tags. Most of them you'll barely use. [This article](http://www.99lime.com/_bak/topics/you-only-need-10-tags/) goes as far as to say that there are only 10 tags that you really need. That's an interesting assertion, and a great place to start.
 
@@ -7,7 +7,7 @@ There are a lot of HTML tags. Most of them you'll barely use. [This article](htt
     - The Head also contains a `<title>` element that holds the text that appears on the web browser's tab.
 3. **Body** - Contains the main content of the site.
     - All of the following elements go in the `<body>` tag
-    - A basic html skeleton
+    - A basic html skeleton:
         ```
         <!DOCTYPE html>
         <html>

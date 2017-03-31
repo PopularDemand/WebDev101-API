@@ -1,4 +1,4 @@
-### HTML Attributes
+## HTML Attributes
 
 Attributes provide additional, pertinent information about an element to the browser. For example, what good would a link be without actually linking to a site? Or how even would an image tag work without...an image?
 
