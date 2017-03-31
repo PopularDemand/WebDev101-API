@@ -17,7 +17,7 @@ This is a walkthough of installing git and deploying your site through github pa
   - run `$ git remote add origin COPIED_REPO_ADDRESS`
   - rename your main HTML file to index.html if it is not already
   - run `$ git push origin master`
-
+- Check out [this walkthrough](http://jmcglone.com/guides/github-pages/) if you get stuck
 
 #### And Congratulations! You personal site is now live at http://YOUR-USERNAME.github.io.
 
