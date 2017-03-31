@@ -14,6 +14,6 @@ Today, we will cover some of the basic building blocks of HTML, CSS, and Git/Git
 
 You will walk away with a personal site deployed on the web for all to see.
 
-
+![sample website](https://s3-us-west-2.amazonaws.com/wwcode-webdev/site-preview.png)
 
 How exciting! Let's get to work!
