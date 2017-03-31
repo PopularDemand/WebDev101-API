@@ -7,6 +7,7 @@ It doesn't have to be an exact replica. Make it your own, and have fun!
 ### Notes:
 
 - Check out the [CSS Reference](https://www.w3schools.com/cssref/) if you're feeling stuck, or maybe for inspiration!
+- Icons can be found [here](https://www.iconfinder.com/iconsets/social-icons-circular-black). Be sure to attribute the designer by linking back to their profile.
 
 - Here's some boilerplate to get you started!
 
