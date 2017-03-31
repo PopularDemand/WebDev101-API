@@ -1,6 +1,6 @@
 ## Main Event
 
-Recreate a site like the one found [here](something-like-this.surge.sh)
+Recreate a site like the one found [here](https://something-like-this.surge.sh)
 
 It doesn't have to be an exact replica. Make it your own, and have fun!
 
