@@ -27,7 +27,7 @@ wd101_lessons = [
     instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'welcome.md')
   },
   {
-    title: "second lesson",
+    title: "What You'll Need",
     instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'what-needed.md')
   }
 ]
