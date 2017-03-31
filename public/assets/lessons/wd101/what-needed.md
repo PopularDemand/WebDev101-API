@@ -14,9 +14,9 @@
 
   - Safari if you're a rebel without a cause.
 
-  - Different browsers offer different levels of support for the code and markup you may write. You  will eventually want to get to a point where your code looks great on any browser that opens it, but to begin with, make it look great on one browser.
+Different browsers offer different levels of support for the code and markup you may write. You  will eventually want to get to a point where your code looks great on any browser that opens it, but to begin with, make it look great on one browser.
 
-  - For the record, the above three browsers work as well as another for 97% of the work you'll do in the beginning.
+For the record, the above three browsers work as well as another for 97% of the work you'll do in the beginning.
 
 If you are truly interested, check out [caniuse](http://caniuse.com) to see a visualization of the current state of browser feature support.
 
