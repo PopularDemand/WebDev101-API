@@ -49,6 +49,14 @@ wd101_lessons = [
   {
     title: "HTML Exercise",
     instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'basic-html-exercise.md')
+  },
+  {
+    title: "Introduction to CSS",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'css-basics.md')
+  },
+  {
+    title: "CSS Properties",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'css-props.md')
   }
 ]
 
