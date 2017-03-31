@@ -35,8 +35,12 @@ wd101_lessons = [
     instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'start-html.md')
   },
   {
-    title: "HTML Tags",
-    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'html-tags.md')
+    title: "HTML Basics",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'html-basics.md')
+  },
+  {
+    title: "HTML Elements",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'html-elements.md')
   },
   {
     title: "HTML Attributes",
