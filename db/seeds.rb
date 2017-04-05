@@ -24,51 +24,63 @@ wd101 = Course.create(title: 'Web Dev 101 -- Gittin Up and Running')
 wd101_lessons = [
   {
     title: "Welcome",
-    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'welcome.md')
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'welcome.md'),
+    route: 'welcome'
   },
   {
     title: "What You'll Need",
-    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'what-needed.md')
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'what-needed.md'),
+    route: 'what-needed'
   },
   {
     title: "Getting Started with HTML",
-    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'start-html.md')
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'start-html.md'),
+    route: 'start-html'
   },
   {
     title: "HTML Basics",
-    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'html-basics.md')
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'html-basics.md'),
+    route: 'html-basics'
   },
   {
     title: "HTML Elements",
-    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'html-elements.md')
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'html-elements.md'),
+    route: 'html-elements'
   },
   {
     title: "HTML Attributes",
-    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'html-attrs.md')
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'html-attrs.md'),
+    route: 'html-attrs'
   },
   {
     title: "HTML Exercise",
-    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'basic-html-exercise.md')
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'basic-html-exercise.md'),
+    route: 'basic-html-exercise'
   },
   {
     title: "Introduction to CSS",
-    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'css-basics.md')
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'css-basics.md'),
+    route: 'css-basics'
   },
   {
     title: "CSS Properties",
-    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'css-props.md')
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'css-props.md'),
+    route: 'css-props'
   },
   {
     title: "CSS Exercise",
-    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'basic-css-exercise.md')
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'basic-css-exercise.md'),
+    route: 'basic-css-exercise'
   },
   {
     title: "Main Exercise",
-    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'main-exercise.md')
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'main-exercise.md'),
+    route: 'main-exercise'
   },
   {
     title: "Github",
-    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'github.md')
+    instructions: Rails.root.join(LESSONS_PATH, 'wd101', 'github.md'),
+    route: 'github'
   }
 ]
 
