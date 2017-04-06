@@ -3,7 +3,7 @@ LESSONS_PATH = 'public/assets/lessons'
 puts 'deleting courses'
 Course.delete_all
 puts 'deleting lessons'
-Course.delete_all
+Lesson.delete_all
 
 def add_lessons(course, lessons)
   lessons.each_with_index do |lesson, i|
@@ -85,3 +85,27 @@ wd101_lessons = [
 ]
 
 add_lessons(wd101, wd101_lessons)
+
+
+###############
+##
+## WD102
+##
+###############
+wd102 = Course.create(title: 'Web Dev 102 -- Walk-through of Workflows')
+
+wd102_lessons = [
+  {
+    title: "Welcome",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd102', 'welcome.md'),
+    route: 'welcome'
+  },
+  {
+    title: "What You'll Need",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd102', 'what-needed.md'),
+    route: 'what-needed'
+  },
+
+]
+
+add_lessons(wd102, wd102_lessons)
