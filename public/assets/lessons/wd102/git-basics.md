@@ -8,13 +8,13 @@ Imagine everytime you made a change to a project, you had to make a brand new di
 
 Ooorrr, you can use a version control manager like Git and have it take snapshots in time of your application. If you like your work, you tell Git to take a new snapshot. If ou don't, you can tell Git to revert the application to a previous snapshot.
 
-===
+<hr>
 
 ### Installation
 
 To get Git, use the [official installation guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-===
+<hr>
 
 ### High level overview
 

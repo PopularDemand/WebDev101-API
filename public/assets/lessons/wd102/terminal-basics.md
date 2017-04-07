@@ -167,7 +167,7 @@ I recommend spending time outside of this study group with this [Command Line Cr
   Run through all of the mini exercises above until you are comfortable navigating around with just a terminal.
 </div>
 
-<video width="720" height="450"controls>
+<video controls>
   <source src="https://s3-us-west-2.amazonaws.com/wwcode-webdev/terminal-ex.mov" type="video/mov">
   <source src="https://s3-us-west-2.amazonaws.com/wwcode-webdev/terminal-ex.mp4" type="video/mp4">
   Your browser does not support the video tag.

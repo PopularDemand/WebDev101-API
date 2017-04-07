@@ -22,7 +22,7 @@
 
 11. Push up to your remote repository to sync the two repositories again.
 
-<video width="720" height="450"controls>
+<video controls>
   <source src='https://s3-us-west-2.amazonaws.com/wwcode-webdev/git.ogg' type='video/ogg'>
 </video>
 
