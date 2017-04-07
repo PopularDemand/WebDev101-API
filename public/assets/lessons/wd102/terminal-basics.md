@@ -8,9 +8,9 @@ Go ahead and close the file explorer and try not to open it through these exerci
 
 #### How to read the following lesson:
 If I say "type `$ [somecommand]`" or "type `> [somecommand]`":
-  - Do not type the `$` or the `>`
-  - Do not type the space
-  - DO type the words that follow and press Enter
+- Do not type the `$` or the `>`
+- Do not type the space
+- DO type the words that follow and press Enter
 
 ### Open a command line application
   - Mac: On OS X, open your Applications folder, then open the Utilities folder. Open the Terminal application.
@@ -30,7 +30,7 @@ Now imagine the scenario, but instead, you have navigated to the "Documents" dir
 
 If that's the case, type `$ pwd`, and your working directory will be printed to the screen.
 
-![example of pwd](IMAGE)
+![example of pwd](https://s3-us-west-2.amazonaws.com/wwcode-webdev/pwd-unix.png)
 
 <div class="mini-exercise">
   <b>Mini Exercise</b><br>
@@ -43,7 +43,7 @@ Now that you know what directory you're in, you probably want to know what files
 
 Type `$ ls` to see the contents
 
-![example of ls](IMAGE)
+![example of ls](https://s3-us-west-2.amazonaws.com/wwcode-webdev/ls-unix.png)
 
 The contents of your directory may not be as colorful as those in the picture.
 
@@ -62,11 +62,11 @@ To move into a subdirectory, type `$ cd [DIRECTORY NAME]`
 
 To move into the direct parent directory, type `$ cd ..` (that's `cd` with two dots)
 
-**Note**: For Mac and Linux, directory and file names are case-specfic. `Documents` is not the same as `documents`.
+**Note**: For Mac and Linux, directory and file names are case-sensitive. `Documents` is not the same as `documents`.
 
 In the following picture, I print my initial working directory, `pwd`. Then I change directory, `cd`, to a folder within the directory I am in. When I `pwd` the next time, I am in a new working directory.
 
-![example of cd](IMAGE)
+![example of cd](https://s3-us-west-2.amazonaws.com/wwcode-webdev/cd-unix.png)
 
 <div class="mini-exercise">
   <b>Mini Exercise</b><br>
@@ -88,7 +88,7 @@ Sometime you will want to make a whole new folder to store your awesome new file
 
 In the following picture, I print my initial working directory, `pwd`, and list its contents `ls`. Then I make a new directory named "cool-directory" _within_ my working directory. When I list contents again, `ls`, the new directory is available.
 
-![example of mkdir](IMAGE)
+![example of mkdir](https://s3-us-west-2.amazonaws.com/wwcode-webdev/mkdir-unix.png)
 
 <div class="mini-exercise">
   <b>Mini Exercise</b><br>
@@ -111,7 +111,7 @@ or
 
 `type NUL > index.html` if on Windows
 
-![example of touch](IMAGE)
+![example of touch](https://s3-us-west-2.amazonaws.com/wwcode-webdev/touch-unix.png)
 
 <div class="mini-exercise">
   <b>Mini Exercise</b><br>
@@ -127,7 +127,7 @@ or
 
 If you need to remove a file, type: `rm [filename]`
 
-![example of rm](IMAGE)
+![example of rm](https://s3-us-west-2.amazonaws.com/wwcode-webdev/rm-unix.png)
 
 ---
 
@@ -139,7 +139,7 @@ If you need to remove a directory, type: `rmdir [directory name]`
 
 The `-rf` signifies that you want to _**r**ecursively_ _**f**orce_ remove the inner directories
 
-![example of rmdir](IMAGE)
+![example of rmdir](https://s3-us-west-2.amazonaws.com/wwcode-webdev/rmdir-unix.png)
 
 <div class="mini-exercise">
   <b>Mini Exercise</b><br>
