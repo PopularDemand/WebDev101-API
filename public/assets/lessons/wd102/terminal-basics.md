@@ -138,7 +138,7 @@ If you need to remove a file, type: `rm [filename]`
 
 If you need to remove a directory, type: `rmdir [directory name]`
 
-**Note:** If you need to remove a directory _that contains other directories_, you must use the command `rmdir -rf [directory name]`
+**Note:** If you need to remove a directory _that contains other directories_, you must use the command `rm -rf [directory name]`
 
 The `-rf` signifies that you want to _**r**ecursively_ _**f**orce_ remove the inner directories
 
