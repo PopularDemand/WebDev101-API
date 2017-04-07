@@ -115,6 +115,11 @@ wd102_lessons = [
     instructions: Rails.root.join(LESSONS_PATH, 'wd102', 'text-editors.md'),
     route: 'text-editors'
   },
+  {
+    title: "Text Editor Workflow",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd102', 'text-editor-workflow.md'),
+    route: 'text-editor-workflow'
+  },
 ]
 
 add_lessons(wd102, wd102_lessons)

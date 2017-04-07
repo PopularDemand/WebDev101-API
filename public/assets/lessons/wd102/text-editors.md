@@ -73,6 +73,4 @@ Remember this step is optional, so don't get bogged down here.
 
 ---
 
-Great, so you can make the files and edit them...
-
-<p class="closing">Let's get to version control.</p>
+<p class="closing">Check out the videos next &rarr;</p>
