@@ -16,4 +16,4 @@
 
 ![internet explorer joke](http://tfmainsights.com/wp-content/uploads/2010/10/Internet-Explorer-joke.png)
 
-<p class="closing">Alright, onto the business.</p>
+<p class="closing">Alright, onto terminal business.</p>

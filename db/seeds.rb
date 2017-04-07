@@ -105,7 +105,11 @@ wd102_lessons = [
     instructions: Rails.root.join(LESSONS_PATH, 'wd102', 'what-needed.md'),
     route: 'what-needed'
   },
-
+  {
+    title: "Terminal Basics",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd102', 'terminal-basics.md'),
+    route: 'terminal-basics'
+  },
 ]
 
 add_lessons(wd102, wd102_lessons)
