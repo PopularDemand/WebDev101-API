@@ -120,6 +120,21 @@ wd102_lessons = [
     instructions: Rails.root.join(LESSONS_PATH, 'wd102', 'text-editor-workflow.md'),
     route: 'text-editor-workflow'
   },
+  {
+    title: "Git Basics",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd102', 'git-basics.md'),
+    route: 'git-basics'
+  },
+  {
+    title: "Git Exercise",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd102', 'git-exercise.md'),
+    route: 'git-exercise'
+  },
+  {
+    title: "Finish",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd102', 'finish.md'),
+    route: 'finish'
+  },
 ]
 
 add_lessons(wd102, wd102_lessons)
