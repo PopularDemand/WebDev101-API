@@ -8,8 +8,11 @@ Go ahead and close the file explorer and try not to open it through these exerci
 
 #### How to read the following lesson:
 If I say "type `$ [somecommand]`" or "type `> [somecommand]`":
+
 - Do not type the `$` or the `>`
+
 - Do not type the space
+
 - DO type the words that follow and press Enter
 
 ### Open a command line application
