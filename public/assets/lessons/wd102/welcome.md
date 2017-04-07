@@ -16,8 +16,8 @@ As always, our time together is limited. You will be given *need to know* inform
 
 **2. Text Editors** - We'll go through the most used workflows in Sublime Text and Atom text editors.
 
-**3. Git Version Control** - We'll cover the top commands you'll need to always keep your programs synced and up to date. As a bonus, we'll cover using git to work in teams.
+**3. Git Version Control** - We'll cover the top commands you'll need to always keep your programs synced and up to date.
 
-**4. (Optional) More HTML/CSS Practice** - Continue to work on the personal site from the previous course. Once you're done with that, let's build Google's homepage. It's pretty straightforward, but we'll need to cover a few more tags and properties.
+**4. (Optional) More HTML/CSS Practice** - Continue to work on the personal site from the previous course. Once you're done with that, let's build Facebook's homepage.
 
 <p class="closing">Ready?! Let's get to it.</p>
