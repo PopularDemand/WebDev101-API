@@ -36,11 +36,11 @@ Here is our base setup:
 
 ![three dogs in a flexbox](https://s3-us-west-2.amazonaws.com/wwcode-webdev/flex-orig.png)
 
-The outer box with the border is our flex container. It has `display: flex;`. Now we will add more properties to the parent box.
+The outer box with the border is our flex container. It has `display: flex;`. Now we will add more properties to that parent box.
 
 ### `align-items`
 
-This will align items before, along, or after the parent's main axis. By default, a flex-displayed element's main axis runs horizontally (like a row or a hamburger).
+This will align items before, on, or after the parent's main axis. By default, a flex-displayed element's main axis runs horizontally (like a row or a hamburger).
 
 The values can be `flex-start` (at the top), `flex-end`, (at the bottom), or `center` (in the middle), plus more. Vertically centering items has been a nightmare for CSS-ers for decades. Flexbox makes it dead-simple.
 
@@ -56,7 +56,7 @@ The values can be `flex-start` (at the top), `flex-end`, (at the bottom), or `ce
 
 ### `justify-content`
 
-This will align content before, along, or after the _secondary_ axis of a flexible box. By default, is the vertical axis (like a column). In other word, by default this aligns elements to the left, middle, or right.
+This will align content before, on, or after the _secondary_ axis of a flexible box. By default, is the vertical axis (like a column). In other word, by default this aligns elements to the left, middle, or right.
 
 The values can be `flex-start` (left), `flex-end` (right), `center` (middle), plus more.
 

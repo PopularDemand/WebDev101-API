@@ -8,9 +8,9 @@ One of the primary purposes of Git is to allow you to make a _full copy_ of your
 
 ![shia lebeouf magic](https://media.giphy.com/media/ujUdrdpX7Ok5W/giphy.gif)
 
-## Git Branch (the noun)
+### Git Branches
 
-A Git branch is a fully separate directory system existing withing a repository. ALL Git repositories initialize with a "master" branch. All files and folders you add and commit are added and committed only on the master branch.
+A Git branch is a fully separate directory system existing withing a repository. ALL Git repositories initialize with a "master" branch. Therefore all files and folders you intially add and commit are added and committed on the master branch.
 
 If you were to then run
 
@@ -33,6 +33,8 @@ Use `$ git checkout...` to switch between branches
 Use the `-b` flag create a _new_ branch, then switch to that branch
 
 <hr>
+
+## Merging
 
 Great. You've moved onto the new branch and made some changes that you like and you would like to incorporate those into the main, `master` branch.
 

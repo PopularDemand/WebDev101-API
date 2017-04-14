@@ -27,4 +27,4 @@ When working in a team, all members will have the same remote repository.
 
 There are many team git workflows around. Here's [another one](http://stackoverflow.com/a/2429011/6412365).
 
-<p class="closing">That wraps up the course. See you next time!</p>
+<p class="closing">That wraps up this course. See you next time!</p>
