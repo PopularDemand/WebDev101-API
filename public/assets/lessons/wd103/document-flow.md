@@ -74,7 +74,7 @@ For example, if I gave all of the dog images above a class of `dog-img`, then se
 
 ![block-level dog images](https://s3-us-west-2.amazonaws.com/wwcode-webdev/block-docs.png)
 
-Notice that that remain on their own lines.
+Notice that they remain on their own lines.
 
 <hr>
 

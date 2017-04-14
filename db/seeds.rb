@@ -167,6 +167,11 @@ wd103_lessons = [
     title: "Basic Positioning",
     instructions: Rails.root.join(LESSONS_PATH, 'wd103', 'basic-positioning.md'),
     route: 'basic-positioning'
+  },
+  {
+    title: "Flexbox",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd103', 'flexbox.md'),
+    route: 'flexbox'
   }
 ]
 add_lessons(wd103, wd103_lessons)
