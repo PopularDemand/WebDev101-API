@@ -1,6 +1,6 @@
 ## Flexbox
 
-Flexbox is a relatively new feature of CSS3. It is used to create a "flexible box" that maintains positional integrity no matter what size screen it is on. As you will undoubtedly be developing sites that will appear on large desktop screens as well as 4-inch, mobile phones, it essential to be able to make sites taht can stand the test of both.
+Flexbox is a relatively new feature of CSS3. It is used to create a "flexible box" that maintains positional integrity no matter what size screen it is on. As you will undoubtedly be developing sites that will appear on large desktop screens as well as 4-inch, mobile phones, it essential to be able to make sites that can stand the test of both.
 
 There are a lot of possibilities with flexbox. Here, I will cover the essentials.
 
@@ -8,16 +8,16 @@ There are a lot of possibilities with flexbox. Here, I will cover the essentials
 
 1. You will need a wrapper container (the flexible box). This will be a `div` like element.
     ```
-    <div class="flex-parent">
+      <div class="flex-parent">
 
-    </div>
+      </div>
     ```
 
 2. Give this wrapper container the CSS property of `display: flex;`
     ```
-    .flex-parent {
-      display: flex;
-    }
+      .flex-parent {
+        display: flex;
+      }
     ```
 
 Now that the parent is a flexible box, the children of the parent can now be aligned easily, _and will keep logical alignment on screens of different sizes_.
