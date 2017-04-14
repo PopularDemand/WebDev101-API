@@ -7,11 +7,12 @@ There are a lot of possibilities with flexbox. Here, I will cover the essentials
 ### Start
 
 1. You will need a wrapper container (the flexible box). This will be a `div` like element.
-  ```
+
+    ```
     <div class="flex-parent">
 
     </div>
-  ```
+    ```
 
 2. Give this wrapper container the CSS property of `display: flex;`
     ```
