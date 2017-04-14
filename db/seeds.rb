@@ -172,6 +172,16 @@ wd103_lessons = [
     title: "Flexbox",
     instructions: Rails.root.join(LESSONS_PATH, 'wd103', 'flexbox.md'),
     route: 'flexbox'
+  },
+  {
+    title: "Got Branching?",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd103', 'git-branching.md'),
+    route: 'git-branching'
+  },
+  {
+    title: "Team Git",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd103', 'team-git.md'),
+    route: 'team-git'
   }
 ]
 add_lessons(wd103, wd103_lessons)
