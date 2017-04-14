@@ -14,7 +14,7 @@ There are a lot of possibilities with flexbox. Here, I will cover the essentials
     ```
 
 2. Give this wrapper container the CSS property of `display: flex;`
-    - ```
+    ```
       .flex-parent {
         display: flex;
       }
