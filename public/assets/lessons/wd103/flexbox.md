@@ -17,14 +17,22 @@ There are a lot of possibilities with flexbox. Here, I will cover the essentials
 2. Give this wrapper container the CSS property of `display: flex;`
 
     ```
-      .flex-parent {
-        display: flex;
-      }
+    .flex-parent {
+      display: flex;
+    }
     ```
 
 Now that the parent is a flexible box, the children of the parent can now be aligned easily, _and will keep logical alignment on screens of different sizes_.
 
 Here is our base setup:
+
+```
+<div class="flex-parent">
+  <img src="dog.jpg" alt="beagle puppy" class="dog-img">
+  <img src="dog.jpg" alt="beagle puppy" class="dog-img">
+  <img src="dog.jpg" alt="beagle puppy" class="dog-img">
+</div>
+```
 
 ![three dogs in a flexbox](https://s3-us-west-2.amazonaws.com/wwcode-webdev/flex-orig.png)
 
