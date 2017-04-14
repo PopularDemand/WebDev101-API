@@ -63,7 +63,6 @@ Like absolute elements, these elements are removed from the normal flow. The `to
 
 ![dog images in triangle shape](https://s3-us-west-2.amazonaws.com/wwcode-webdev/fixed-dogs.png)
 
-
 If you'd like more on position, check out [this tutorial](http://learnlayout.com/position.html). When you have time, I recommend going through the full, learn layout tutorial as well.
 
 <p class="closing">For now, onto Flexbox!</p>
