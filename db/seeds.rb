@@ -19,7 +19,7 @@ end
 ## WD101
 ##
 ###############
-wd101 = Course.create(title: 'Web Dev 101 -- Gittin Up and Running')
+wd101 = Course.create(title: '01 -- Gittin Up and Running')
 
 wd101_lessons = [
   {
@@ -92,7 +92,7 @@ add_lessons(wd101, wd101_lessons)
 ## WD102
 ##
 ###############
-wd102 = Course.create(title: 'Web Dev 102 -- Walk-through of Workflows')
+wd102 = Course.create(title: '02 -- Walk-through of Workflows')
 
 wd102_lessons = [
   {
@@ -138,3 +138,34 @@ wd102_lessons = [
 ]
 
 add_lessons(wd102, wd102_lessons)
+
+
+###############
+##
+## WD103
+##
+###############
+wd103 = Course.create(title: '03 -- Intermediate Lessons')
+
+wd103_lessons = [
+  {
+    title: "Welcome",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd103', 'welcome.md'),
+    route: 'welcome'
+  },
+  {
+    title: "What You'll Need",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd103', 'what-needed.md'),
+    route: 'what-needed'
+  },
+  {
+    title: "HTML Document Flow",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd103', 'document-flow.md'),
+    route: 'document-flow'
+  },
+  {
+    title: "Basic Positioning",
+    instructions: Rails.root.join(LESSONS_PATH, 'wd103', 'basic-positioning.md'),
+    route: 'basic-positioning'
+  },
+]
