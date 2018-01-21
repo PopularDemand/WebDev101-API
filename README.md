@@ -1,24 +1,13 @@
-# README
+*WWCode DFW WebDev101*
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Data that powers [WebDev 101](https://populardemand.github.io/webdev101/).
 
-Things you may want to cover:
+Lesson content is found at `/public/assets/lessons`.
 
-* Ruby version
+Lesson creation occurs in the `/db/seeds.rb`.
 
-* System dependencies
+To create a new Course and/or Lessons, follow the examples seen there. The changes will not take effect until a new seeding occurs on the production database.
 
-* Configuration
+If you would like to contribute to this project, make a PR with your lesson plans, and I will add as contributor to this repo, the front end repo, and the production server.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Enjoy!
